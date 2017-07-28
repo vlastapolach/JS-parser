@@ -30,12 +30,16 @@
 
       <div class="row">
         <div class="col-md-12">
-          <h1>1) Download Chrome Plugin</h1>
+          <h1>1) When do you want to use this?</h1>
+          <p>
+            For marketing/sales activities you can download a list of Czech e-shops. E-shops can are divided into different categories and from each category, there are shown max. 300 e-shops (so you need to go deeper to inner categories to get more results).
+          </p>
+          <h1>2) Download Chrome Plugin</h1>
           <p>
             For security reasons, you can't browse other URLs source code (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS" target="_blank">Access-Control-Allow-Origin</a>). You have to use <a href="https://www.google.com/chrome/"
               target="_blank">Google Chrome</a> and download and <strong>enable</strong> this plugin: <strong><a href="https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi" target="_blank">Allow-Control-Allow-Origin: *</a></strong>. Before <strong>new run</strong>, it is recommended to <strong>Deactivate</strong> and then <strong>Active</strong> the A-C-A-O* plugin and refresh the page.
           </p>
-          <h1>2) Paste the URL of category</h1>
+          <h1>3) Paste the URL of category</h1>
         </div>
         <div class="col-md-12">
           <p>Insert only part with category name (without beginning and end slashes) - <span class="blue">Blue</span> example <code>https://obchody.heureka.cz/<span class="blue">auto-moto</span>/</code></p>
@@ -48,7 +52,7 @@
           </form>
         </div>
         <div class="col-md-12">
-          <h1>3) Click Proceed</h1>
+          <h1>4) Click Proceed</h1>
           <form class="form-inline">
             <button type="submit" class="btn btn-lg btn-primary" id="proceed">Proceed</button>
           </form>
@@ -57,7 +61,7 @@
             <textarea class="form-control" rows="4" id="logRes"></textarea>
           </div>
           <!--div id="logRes">Console log:<br/></div-->
-          <h1>4) Download CSV</h1>
+          <h1>5) Download CSV</h1>
           <p>Based on the number of URLs and connection speed, searching might take a while. The Download button will become active after the searching is done.</p>
           <div class="download-button">
             <a onclick='downloadCSV();' class="btn btn-lg btn-danger disabled" id="download">Download CSV</a>
