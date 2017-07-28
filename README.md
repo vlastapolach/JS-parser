@@ -6,7 +6,7 @@
 For marketing/sales activities you can download a list of Czech e-shops from one of the Czech biggest catalog [heureka.cz](https://obchody.heureka.cz/). E-shops are divided into different categories and from each category, there are shown max. 300 e-shops (so you need to go deeper to inner categories to get more results).
 
 ## 2) Download Chrome Plugin
-For security reasons, you can't browse other URLs source code (Access-Control-Allow-Origin). You have to use [Google Chrome](https://www.google.com/chrome/) and download and **enable** this plugin: **[Allow-Control-Allow-Origin: *](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi)**. Before new run, it is recommended to **Deactivate** and then **Active** the A-C-A-O* plugin and refresh the page.
+For security reasons, you can't browse other URLs source code (Access-Control-Allow-Origin). You have to use [Google Chrome](https://www.google.com/chrome/) and download and **enable** this plugin: **[Allow-Control-Allow-Origin: *](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi)**. Before new run, it is recommended to **Deactivate** and then **Activate** the A-C-A-O* plugin and refresh the page.
 
 ## 3) Paste the URL of category
 Insert only part with category name (without beginning and end slashes) - https://obchody.heureka.cz/ **auto-moto** /

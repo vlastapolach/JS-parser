@@ -50,7 +50,7 @@ $("#proceed").one("click", function() {
         }
 
         var textbox = document.getElementById('logRes');
-        textbox.value += "Page " + x + " done. " + urlHeur + "\n";
+        textbox.value += "🆗  Page " + x + " done. " + urlHeur + "\n";
         textbox.scrollTop = textbox.scrollHeight;
 
         getSourceAsDOM(urlHeur);
@@ -98,7 +98,7 @@ $("#proceed").one("click", function() {
                 link: 'https://' + arrayURLs4[testNum]
               });
               var textbox = document.getElementById('logRes');
-              textbox.value += testNum + ': https://' + arrayURLs4[testNum] + " added \n";
+              textbox.value += "🔐  " + testNum + ': https://' + arrayURLs4[testNum] + " added \n";
               textbox.scrollTop = textbox.scrollHeight;
               testNum++;
               if (testNum == arrayURLs4.length) {
@@ -110,7 +110,7 @@ $("#proceed").one("click", function() {
                 link: 'http://' + arrayURLs4[testNum]
               })
               var textbox = document.getElementById('logRes');
-              textbox.value += testNum + ': http://' + arrayURLs4[testNum] + " added \n";
+              textbox.value += "🔓  " + testNum + ': http://' + arrayURLs4[testNum] + " added \n";
               textbox.scrollTop = textbox.scrollHeight;
               testNum++;
               if (testNum == arrayURLs4.length) {
