@@ -8,6 +8,9 @@ var arrayURLs2 = [];
 var arrayURLs3 = [];
 var arrayURLs4 = [];
 var testNum = 0;
+var textNum = 0;
+var textbox = document.getElementById('logRes');
+
 
 function categoryName() {
   category = $('#oldUrl').val();
@@ -49,11 +52,21 @@ $("#proceed").one("click", function() {
           urlHeur = "https://obchody.heureka.cz/" + category + "/?f=" + x;
         }
 
-        var textbox = document.getElementById('logRes');
-        textbox.value += "🆗  Page " + x + " done. " + urlHeur + "\n";
-        textbox.scrollTop = textbox.scrollHeight;
-
         getSourceAsDOM(urlHeur);
+
+        if (domNew == "") {
+          textbox.value += "⛔  Page " + x + " Error\n";
+          textbox.scrollTop = textbox.scrollHeight;
+          textNum++
+          if (textNum === 15) {
+            textbox.value += "🌍  Network error - try to disable/enable cross-origin resource sharing (A-C-A-O* plugin)\n";
+            textbox.scrollTop = textbox.scrollHeight;
+          }
+        }
+        else {
+          textbox.value += "🆗  Page " + x + " done. " + urlHeur + "\n";
+          textbox.scrollTop = textbox.scrollHeight;
+        }
 
         var newLines = domNew.split(/\n/);
 
