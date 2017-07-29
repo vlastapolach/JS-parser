@@ -9,7 +9,7 @@ For marketing/sales activities you can download a list of Czech e-shops from one
 For security reasons, you can't browse other URLs source code (Access-Control-Allow-Origin). You have to use [Google Chrome](https://www.google.com/chrome/) and download and **enable** this plugin: **[Allow-Control-Allow-Origin: *](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi)**. Before new run, it is recommended to **Deactivate** and then **Activate** the A-C-A-O* plugin and refresh the page.
 
 ## 3) Paste the URL of category
-Insert only part with category name (without beginning and end slashes) - https://obchody.heureka.cz/ **auto-moto** /
+Insert only part with category name (without beginning and end slashes) - `https://obchody.heureka.cz/`**auto-moto**`/`
 
 If empty, Parser will search on main page https://obchody.heureka.cz/
 
